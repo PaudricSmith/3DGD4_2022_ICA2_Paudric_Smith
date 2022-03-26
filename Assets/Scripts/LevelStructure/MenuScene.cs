@@ -9,7 +9,7 @@ public enum Type
 
 
 [CreateAssetMenu(fileName = "NewMenu", menuName = "Scene Data/Menu")]
-public class Menu : GameScene
+public class MenuScene : GameScene
 {
     // Choose which type of menu from the editor
     [Header("Menu specific")]

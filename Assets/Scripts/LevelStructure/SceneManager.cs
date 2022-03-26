@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class SceneData : ScriptableObject
 {
     [SerializeField] private List<Level> levels = new List<Level>();
-    [SerializeField] private List<Menu> menus = new List<Menu>();
+    [SerializeField] private List<MenuScene> menus = new List<MenuScene>();
+
+    [Header("               Current Level")]
     [SerializeField] private int CurrentLevelIndex = 1;
 
     #region LEVELS
