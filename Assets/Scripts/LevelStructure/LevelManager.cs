@@ -12,6 +12,10 @@ public class LevelManager : ScriptableObject
     [Header("               Current Level")]
     [SerializeField] private int CurrentLevelIndex = 1;
 
+    [Header("               Events")]
+    [SerializeField] private GameEventSO OnUnloadPauseScene;
+
+
     #region LEVELS
 
     // Load a scene with a given index
@@ -68,10 +72,19 @@ public class LevelManager : ScriptableObject
         SceneManager.LoadSceneAsync(menus[(int)Type.Main_Menu].SceneName);
     }
 
-    // Load Pause Menu
+    // Load Pause Menu additively on top of level scene
     public void LoadPauseMenu()
     {
-        SceneManager.LoadSceneAsync(menus[(int)Type.Pause_Menu].SceneName);
+        SceneManager.LoadSceneAsync(menus[(int)Type.Pause_Menu].SceneName, LoadSceneMode.Additive);
+    }
+    
+    // Unload Pause Menu
+    public void UnloadPauseMenu()
+    {
+        SceneManager.UnloadSceneAsync(menus[(int)Type.Pause_Menu].SceneName);
+
+        // Raise event to InputManager to update controls state
+        OnUnloadPauseScene.Raise();
     }
 
     #endregion MENUS
