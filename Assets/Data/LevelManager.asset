@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: SceneManager
-  m_EditorClassIdentifier: Assembly-CSharp::SceneData
+  m_Script: {fileID: 11500000, guid: 78be061b3c3da83438e6fa871913d02c, type: 3}
+  m_Name: LevelManager
+  m_EditorClassIdentifier: 
   levels:
   - {fileID: 11400000, guid: 643b151b73d539b4b9603614af5fa9f0, type: 2}
   menus:

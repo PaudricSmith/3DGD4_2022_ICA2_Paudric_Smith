@@ -3,8 +3,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-[CreateAssetMenu(fileName = "sceneManager", menuName = "Scene Data/Manager")]
-public class SceneData : ScriptableObject
+[CreateAssetMenu(fileName = "NewLevelManager", menuName = "Scene Data/Manager")]
+public class LevelManager : ScriptableObject
 {
     [SerializeField] private List<Level> levels = new List<Level>();
     [SerializeField] private List<MenuScene> menus = new List<MenuScene>();
@@ -44,6 +44,18 @@ public class SceneData : ScriptableObject
     {
         CurrentLevelIndex = 1;
         LoadLevelWithIndex(CurrentLevelIndex);
+    }
+
+    // Quit game
+    public void QuitGame()
+    {
+        // Set index to Main menu index '0'
+        CurrentLevelIndex = 0;
+
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+            Application.Quit();
     }
 
     #endregion LEVELS
