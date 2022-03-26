@@ -18,6 +18,8 @@ public class InputManager : MonoBehaviour
 
     private void Awake()
     {
+        Time.timeScale = 1;
+
         controls = new PlayerControls();
         playerActions = controls.Player;
 
@@ -53,6 +55,8 @@ public class InputManager : MonoBehaviour
         {
             isGamePaused = true;
 
+            Time.timeScale = 0;
+
             // Raise event to the LevelManager method 'LoadPauseMenu'
             OnLoadPauseScene.Raise();
 
@@ -65,6 +69,8 @@ public class InputManager : MonoBehaviour
     public void OnUnloadPauseScene()
     {
         isGamePaused = false;
+
+        Time.timeScale = 1;
 
         // Stop controls of player
         controls.Player.Enable();
