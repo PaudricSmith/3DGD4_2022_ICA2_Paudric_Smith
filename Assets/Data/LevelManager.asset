@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78be061b3c3da83438e6fa871913d02c, type: 3}
   m_Name: LevelManager
   m_EditorClassIdentifier: 
-  OnUnloadPauseScene: {fileID: 11400000, guid: 5bd63c20a2f9dc34896f4e996020d18b, type: 2}
   levels:
   - {fileID: 11400000, guid: 643b151b73d539b4b9603614af5fa9f0, type: 2}
+  - {fileID: 11400000, guid: c9e7f1ee016daec4bb95386b2d09182f, type: 2}
   menus:
   - {fileID: 11400000, guid: bc2907c3da197354d95c828c800669f6, type: 2}
   - {fileID: 11400000, guid: 5614f4f9194d9084d817f05d6a34018b, type: 2}
   CurrentLevelIndex: 1
+  OnUnloadPauseScene: {fileID: 11400000, guid: 5bd63c20a2f9dc34896f4e996020d18b, type: 2}

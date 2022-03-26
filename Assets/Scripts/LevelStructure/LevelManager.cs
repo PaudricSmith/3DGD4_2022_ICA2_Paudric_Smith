@@ -37,6 +37,13 @@ public class LevelManager : ScriptableObject
         LoadLevelWithIndex(CurrentLevelIndex);
     }
 
+    // Start previous level
+    public void PreviousLevel()
+    {
+        CurrentLevelIndex--;
+        LoadLevelWithIndex(CurrentLevelIndex);
+    }
+
     // Restart current level
     public void RestartLevel()
     {
