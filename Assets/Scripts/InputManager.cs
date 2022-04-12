@@ -18,10 +18,16 @@ public class InputManager : MonoBehaviour
 
     private void Awake()
     {
+        // Hide mouse cursor at the centre of screen when in game
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // Set time scale to normal speed
         Time.timeScale = 1;
 
         controls = new PlayerControls();
         playerActions = controls.Player;
+
+        #region PLAYER
 
         // When horizontal movement happens assign the value to 'horizontalInput'
         playerActions.HorizontalMovement.performed += ctx => horizontalInput = ctx.ReadValue<Vector2>();
@@ -39,9 +45,12 @@ public class InputManager : MonoBehaviour
 
         // Pause pressed
         playerActions.Pause.performed += _ => OnPausePressed();
+
+        #endregion PLAYER
+
     }
 
-    
+
     private void Update()
     {
         movement.ReceiveInput(horizontalInput);
@@ -55,6 +64,10 @@ public class InputManager : MonoBehaviour
         {
             isGamePaused = true;
 
+            // Show mouse cursor when in menus
+            Cursor.lockState = CursorLockMode.None;
+
+            // Set time scale to zero speed which stops any player movement
             Time.timeScale = 0;
 
             // Raise event to the LevelManager method 'LoadPauseMenu'
@@ -70,6 +83,10 @@ public class InputManager : MonoBehaviour
     {
         isGamePaused = false;
 
+        // Hide mouse cursor at the centre of screen when go back to game
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // Set time scale back to normal speed
         Time.timeScale = 1;
 
         // Stop controls of player
