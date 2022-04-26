@@ -36,7 +36,7 @@ public class GamepadCursor : MonoBehaviour
 
     private void OnEnable()
     {
-        print("In GamepadCursor.cs OnEnable() *********************************");
+        //print("In GamepadCursor.cs OnEnable() *********************************");
 
         if (virtualMouse == null)
         {

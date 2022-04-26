@@ -24,10 +24,20 @@ public class LevelManager : ScriptableObject
         if (index <= levels.Count)
         {
             //Load the level
-            SceneManager.LoadSceneAsync("Level" + index.ToString());
+            if (index == 1)
+            {
+                SceneManager.LoadSceneAsync("MainScene");
+            }
+            else if (index == 2)
+            {
+                SceneManager.LoadSceneAsync("AlternateScene");
+            }
         }
         //reset the index if we have no more levels or overflows during testing
-        else CurrentLevelIndex = 1;
+        else
+        {
+            CurrentLevelIndex = 1;
+        }
     }
 
     // Start next level

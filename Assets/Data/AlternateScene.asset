@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2f2ef1973733a54f8fe75215f113076, type: 3}
-  m_Name: Level2
+  m_Name: AlternateScene
   m_EditorClassIdentifier: 
-  sceneName: Level2
-  shortDescription: Test level
+  sceneName: AlternateScene
+  shortDescription: 
   music: {fileID: 0}
   musicVolume: 0.52
   levelSpecificVariable: 0
