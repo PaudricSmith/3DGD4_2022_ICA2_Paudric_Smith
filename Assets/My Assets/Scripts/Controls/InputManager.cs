@@ -1,12 +1,12 @@
-using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 
 public class InputManager : MonoBehaviour
 {
     [SerializeField] private GameEventSO OnLoadPauseScene;
     [SerializeField] private Movement movement;
     [SerializeField] private MouseLook mouseLook;
+    [SerializeField] private Gun gun;
 
     private PlayerControls controls;
     private PlayerControls.PlayerActions playerActions;
@@ -45,6 +45,12 @@ public class InputManager : MonoBehaviour
 
         // Pause pressed
         playerActions.Pause.performed += _ => OnPausePressed();
+
+        // Equip/Unequip Gun button 
+        playerActions.EquipGun.performed += _ => gun.Equip();
+
+        // Shoot button 
+        playerActions.Shoot.performed += _ => gun.Shoot();
 
         #endregion PLAYER
 
