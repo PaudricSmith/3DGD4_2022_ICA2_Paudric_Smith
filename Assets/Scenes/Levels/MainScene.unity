@@ -109827,7 +109827,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22542
+  m_Name: pb_Mesh153402
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -114076,6 +114076,50 @@ PrefabInstance:
     - target: {fileID: 9164263919748218653, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
       propertyPath: sprintingSpeed
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: far clip plane
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: m_SensorSize.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: m_SensorSize.y
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: m_TargetDisplay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660729985, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660730047, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: stopNaNs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660730047, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: dithering
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660730047, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: fullscreenPassthrough
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164263921660730047, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
+      propertyPath: allowDynamicResolution
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7452aa1ddbc2ff468f51bde8eb50d65, type: 3}
