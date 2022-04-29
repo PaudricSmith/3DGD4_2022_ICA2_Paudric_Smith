@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 75.94418, g: 89.39221, b: 114.48071, a: 1}
+  m_IndirectSpecularColor: {r: 2.3732557, g: 2.7935066, b: 3.5775223, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7705,7 +7705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419791789}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0000001899898, y: 0.000000029802322, z: -0.00000017881393}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1960217579}
@@ -101313,6 +101313,122 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447958, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Intensity
+      value: 133.95499
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_LightUnit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_SpotLightShape
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_PointlightHDType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328904674018202664, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 5328904674018202664, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Range
+      value: 9.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Cookie
+      value: 
+      objectReference: {fileID: 2800000, guid: 4da77d84fa4c77d45b6797be9d0625ba, type: 3}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Intensity
+      value: 99.8967
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_ColorTemperature
+      value: 6603
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 9.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_UseBoundingSphereOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_UseCullingMatrixOverride
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e00
+      value: 1.428148
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e11
+      value: 1.428148
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e22
+      value: 1.0203665
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e23
+      value: -0.20203666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e32
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_Shadows.m_CullingMatrixOverride.e33
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
