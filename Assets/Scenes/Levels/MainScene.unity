@@ -101317,11 +101317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Intensity
-      value: 133.95499
+      value: 10.659799
       objectReference: {fileID: 0}
     - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_LightUnit
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_ShapeRadius
@@ -101329,11 +101329,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_SpotLightShape
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: 36.3
       objectReference: {fileID: 0}
     - target: {fileID: 1494683958403215823, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_PointlightHDType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5328904674018202664, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_LocalPosition.y
@@ -101354,7 +101358,7 @@ PrefabInstance:
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Cookie
       value: 
-      objectReference: {fileID: 2800000, guid: 4da77d84fa4c77d45b6797be9d0625ba, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -101369,7 +101373,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Intensity
-      value: 99.8967
+      value: 10.659799
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_AreaSize.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
+      propertyPath: m_AreaSize.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Lightmapping
@@ -101401,11 +101413,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_UseBoundingSphereOverride
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Shadows.m_UseCullingMatrixOverride
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8508849749136957496, guid: fff8d486896b86440a49f62f2579c357, type: 3}
       propertyPath: m_Shadows.m_CullingMatrixOverride.e00
