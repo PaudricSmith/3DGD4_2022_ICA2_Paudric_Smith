@@ -88,7 +88,7 @@ MonoBehaviour:
     m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0, b: 0, a: 1}
+    m_Value: {r: 1, g: 0, b: 0.99265337, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
